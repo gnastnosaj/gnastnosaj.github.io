@@ -79,6 +79,11 @@ tags:
     //登录npm账号
     npm login
 
-    //发布
+    //发布，带包作用域的需要有创建私有包的权限或添加公开权限参数
     npm publish
+    //由于示例带@ng-cari包作用域，所以这里使用公开权限参数
+    npm publish --access public
+
+    //在其他工程中使用发布后的包
+    npm install -S @ng-cari/lottie
 ```
