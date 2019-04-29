@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jasontsang.dev/2019/04/28/angular-libraries/</loc>
+    
+    <lastmod>2019-04-29T02:08:38.732Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://jasontsang.dev/2019/04/19/electron/</loc>
     
     <lastmod>2019-04-22T03:07:04.159Z</lastmod>
