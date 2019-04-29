@@ -69,12 +69,16 @@ tags:
 
     //如果使用其他源推荐使用nrm源管理工具
     npm install -g nrm
-    //添加源
-    nrm add cari http://127.0.0.1/registry/
+
+    //添加nexus源
+    //组
+    nrm add <group> http://127.0.0.1:8081/repository/npm-group/
+    //私有
+    nrm add <hosted> http://127.0.0.1:8081/repository/npm-hosted/
     //查看源
     nrm ls
-    //使用源
-    nrm use cari
+    //使用私有
+    nrm use <hosted>
 
     //登录npm账号
     npm login
@@ -83,6 +87,9 @@ tags:
     npm publish
     //由于示例带@ng-cari包作用域，所以这里使用公开权限参数
     npm publish --access public
+
+    //使用组
+    nrm use <group>
 
     //在其他工程中使用发布后的包
     npm install -S @ng-cari/lottie
