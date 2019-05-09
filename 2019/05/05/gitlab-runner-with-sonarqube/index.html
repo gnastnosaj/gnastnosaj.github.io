@@ -20,10 +20,9 @@
 <li><p>SonarQube</p>
 <p>本文写作时SonarQube的版本已经发布到7.7，但用于实现与GitLab进行交互的SonarQube插件目前仅支持7.5，所以这里以7.5做为演示。</p>
 <ol>
-<li>部署对应的docker容器</li>
-</ol>
+<li><p>部署对应的docker容器</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">docker run --detach \</span><br><span class="line">  --publish 9000:9000 \</span><br><span class="line">  --name sonarqube \</span><br><span class="line">  --restart always \</span><br><span class="line">  sonarqube:7.5-community</span><br></pre></td></tr></table></figure>
-<ol start="2">
+</li>
 <li><p>进入<a href="http://127.0.0.1:9000/admin/marketplace" target="_blank" rel="noopener">http://127.0.0.1:9000/admin/marketplace</a> 并安装GitLab插件</p>
 </li>
 <li><p>进入<a href="http://127.0.0.1/profile/personal_access_tokens" target="_blank" rel="noopener">http://127.0.0.1/profile/personal_access_tokens</a> 生成GitLab的Access Token访问令牌</p>
