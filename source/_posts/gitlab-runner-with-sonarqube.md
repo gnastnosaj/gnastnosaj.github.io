@@ -93,7 +93,6 @@ cat /etc/hosts
 # 持续集成
 
 1. 编写GitLab持续集成脚本，并上传项目代码。
-
 ```
 stages:
   - prepare
