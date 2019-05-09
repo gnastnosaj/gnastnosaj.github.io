@@ -70,7 +70,6 @@ cat /etc/hosts
   本文写作时SonarQube的版本已经发布到7.7，但用于实现与GitLab进行交互的SonarQube插件目前仅支持7.5，所以这里以7.5做为演示。
 
   1. 部署对应的docker容器
-
   ```
   docker run --detach \
     --publish 9000:9000 \
@@ -78,6 +77,7 @@ cat /etc/hosts
     --restart always \
     sonarqube:7.5-community
   ```
+
   2. 进入http://127.0.0.1:9000/admin/marketplace 并安装GitLab插件
 
   3. 进入http://127.0.0.1/profile/personal_access_tokens 生成GitLab的Access Token访问令牌
