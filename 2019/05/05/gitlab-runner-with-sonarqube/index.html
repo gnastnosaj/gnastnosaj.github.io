@@ -11,29 +11,30 @@
 <li><p>部署对应的docker容器</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">//部署</span><br><span class="line">docker run -d --name gitlab-runner --restart always \</span><br><span class="line">   -v /srv/gitlab-runner/config:/etc/gitlab-runner \</span><br><span class="line">   -v /var/run/docker.sock:/var/run/docker.sock \</span><br><span class="line">   gitlab/gitlab-runner:latest</span><br><span class="line"></span><br><span class="line">//进入容器</span><br><span class="line">docker exec -it gitlab-runner /bin/bash</span><br><span class="line">//安装node环境和相关工具</span><br><span class="line">//angular</span><br><span class="line">npm install -g @angular/cli</span><br><span class="line">npm install -g protractor</span><br><span class="line">//sonar-scanner</span><br><span class="line">npm install -g sonar-scanner</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>进入<a href="http://127.0.0.1/${username}/ng-cari/settings/ci_cd，查看GitLab" target="_blank" rel="noopener">http://127.0.0.1/${username}/ng-cari/settings/ci_cd，查看GitLab</a> Runner的注册令牌Registration Token</p>
+<li><p>进入<a href="http://127.0.0.1/username/ng-cari/settings/ci_cd" target="_blank" rel="noopener">http://127.0.0.1/username/ng-cari/settings/ci_cd</a> 查看GitLab Runner的注册令牌Registration Token</p>
 </li>
 <li><p>注册GitLab Runner</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">docker run --rm -t -i -v /srv/gitlab-runner/config:/etc/gitlab-runner gitlab/gitlab-runner register -n \</span><br><span class="line">   --url `GitLab对应的url` \</span><br><span class="line">   --registration-token `GitLab对应的GitLab Runner Registration Token` \</span><br><span class="line">   --executor shell \</span><br><span class="line">   --description &quot;Docker Runner&quot; \</span><br><span class="line">   --docker-image &quot;docker:stable&quot; \</span><br><span class="line">   --docker-privileged</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
 <ul>
-<li>SonarQube</li>
-</ul>
+<li><p>SonarQube</p>
 <p>本文写作时SonarQube的版本已经发布到7.7，但用于实现与GitLab进行交互的SonarQube插件目前仅支持7.5，所以这里以7.5做为演示。</p>
+</li>
+</ul>
 <ol>
 <li>部署对应的docker容器</li>
 </ol>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">docker run --detach \</span><br><span class="line">  --publish 9000:9000 \</span><br><span class="line">  --name sonarqube \</span><br><span class="line">  --restart always \</span><br><span class="line">  sonarqube:7.5-community</span><br></pre></td></tr></table></figure>
 <ol start="2">
-<li><p>进入<a href="http://127.0.0.1:9000/admin/marketplace并安装GitLab插件" target="_blank" rel="noopener">http://127.0.0.1:9000/admin/marketplace并安装GitLab插件</a></p>
+<li><p>进入<a href="http://127.0.0.1:9000/admin/marketplace" target="_blank" rel="noopener">http://127.0.0.1:9000/admin/marketplace</a> 并安装GitLab插件</p>
 </li>
-<li><p>进入<a href="http://127.0.0.1/profile/personal_access_tokens生成GitLab的Access" target="_blank" rel="noopener">http://127.0.0.1/profile/personal_access_tokens生成GitLab的Access</a> Token访问令牌</p>
+<li><p>进入<a href="http://127.0.0.1/profile/personal_access_tokens" target="_blank" rel="noopener">http://127.0.0.1/profile/personal_access_tokens</a> 生成GitLab的Access Token访问令牌</p>
 </li>
-<li><p>进入<a href="http://127.0.0.1:9000/admin/settings?category=gitlab配置GitLab插件信息" target="_blank" rel="noopener">http://127.0.0.1:9000/admin/settings?category=gitlab配置GitLab插件信息</a></p>
+<li><p>进入<a href="http://127.0.0.1:9000/admin/settings?category=gitlab" target="_blank" rel="noopener">http://127.0.0.1:9000/admin/settings?category=gitlab</a> 配置GitLab插件信息</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">GitLab url: http://127.0.0.1</span><br><span class="line">GitLab User Token: `步骤2中生成的GitLab Access Token`</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>进入<a href="http://127.0.0.1:9000/admin/users，在Administrator用户下建立SonarQube的Token访问令牌。" target="_blank" rel="noopener">http://127.0.0.1:9000/admin/users，在Administrator用户下建立SonarQube的Token访问令牌。</a></p>
+<li><p>进入<a href="http://127.0.0.1:9000/admin/users" target="_blank" rel="noopener">http://127.0.0.1:9000/admin/users</a> 在Administrator用户下建立SonarQube的Token访问令牌。</p>
 </li>
 </ol>
 <h1 id="持续集成"><a href="#持续集成" class="headerlink" title="持续集成"></a>持续集成</h1><ol>
