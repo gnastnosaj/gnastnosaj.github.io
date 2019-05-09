@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jasontsang.dev/2019/05/05/gitlab-runner-with-sonarqube/</loc>
+    
+    <lastmod>2019-05-09T02:17:31.005Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://jasontsang.dev/2019/04/28/angular-libraries/</loc>
     
     <lastmod>2019-04-29T06:09:07.201Z</lastmod>
