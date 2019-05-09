@@ -34,68 +34,68 @@ cat /etc/hosts
 
 - GitLab Runner
 
-1. 部署对应的docker容器
-```
-//部署
-docker run -d --name gitlab-runner --restart always \
-   -v /srv/gitlab-runner/config:/etc/gitlab-runner \
-   -v /var/run/docker.sock:/var/run/docker.sock \
-   gitlab/gitlab-runner:latest
+  1. 部署对应的docker容器
+  ```
+  //部署
+  docker run -d --name gitlab-runner --restart always \
+    -v /srv/gitlab-runner/config:/etc/gitlab-runner \
+    -v /var/run/docker.sock:/var/run/docker.sock \
+    gitlab/gitlab-runner:latest
 
-//进入容器
-docker exec -it gitlab-runner /bin/bash
-//安装node环境和相关工具
-//angular
-npm install -g @angular/cli
-npm install -g protractor
-//sonar-scanner
-npm install -g sonar-scanner
-```
+  //进入容器
+  docker exec -it gitlab-runner /bin/bash
+  //安装node环境和相关工具
+  //angular
+  npm install -g @angular/cli
+  npm install -g protractor
+  //sonar-scanner
+  npm install -g sonar-scanner
+  ```
 
-2. 进入http://127.0.0.1/username/ng-cari/settings/ci_cd 查看GitLab Runner的注册令牌Registration Token
+  2. 进入http://127.0.0.1/username/ng-cari/settings/ci_cd 查看GitLab Runner的注册令牌Registration Token
 
-3. 注册GitLab Runner
-```
-docker run --rm -t -i -v /srv/gitlab-runner/config:/etc/gitlab-runner gitlab/gitlab-runner register -n \
-   --url `GitLab对应的url` \
-   --registration-token `GitLab对应的GitLab Runner Registration Token` \
-   --executor shell \
-   --description "Docker Runner" \
-   --docker-image "docker:stable" \
-   --docker-privileged
-```
+  3. 注册GitLab Runner
+  ```
+  docker run --rm -t -i -v /srv/gitlab-runner/config:/etc/gitlab-runner gitlab/gitlab-runner register -n \
+    --url `GitLab对应的url` \
+    --registration-token `GitLab对应的GitLab Runner Registration Token` \
+    --executor shell \
+    --description "Docker Runner" \
+    --docker-image "docker:stable" \
+    --docker-privileged
+  ```
 
 - SonarQube
 
   本文写作时SonarQube的版本已经发布到7.7，但用于实现与GitLab进行交互的SonarQube插件目前仅支持7.5，所以这里以7.5做为演示。
 
-1. 部署对应的docker容器
+  1. 部署对应的docker容器
 
-```
-docker run --detach \
-  --publish 9000:9000 \
-  --name sonarqube \
-  --restart always \
-  sonarqube:7.5-community
-```
-2. 进入http://127.0.0.1:9000/admin/marketplace 并安装GitLab插件
+  ```
+  docker run --detach \
+    --publish 9000:9000 \
+    --name sonarqube \
+    --restart always \
+    sonarqube:7.5-community
+  ```
+  2. 进入http://127.0.0.1:9000/admin/marketplace 并安装GitLab插件
 
-3. 进入http://127.0.0.1/profile/personal_access_tokens 生成GitLab的Access Token访问令牌
+  3. 进入http://127.0.0.1/profile/personal_access_tokens 生成GitLab的Access Token访问令牌
 
-4. 进入http://127.0.0.1:9000/admin/settings?category=gitlab 配置GitLab插件信息
-```
-    GitLab url: http://127.0.0.1
-    GitLab User Token: `步骤2中生成的GitLab Access Token`
-```
+  4. 进入http://127.0.0.1:9000/admin/settings?category=gitlab 配置GitLab插件信息
+  ```
+      GitLab url: http://127.0.0.1
+      GitLab User Token: `步骤2中生成的GitLab Access Token`
+  ```
 
-5. 进入http://127.0.0.1:9000/admin/users 在Administrator用户下建立SonarQube的Token访问令牌。
+  5. 进入http://127.0.0.1:9000/admin/users 在Administrator用户下建立SonarQube的Token访问令牌。
 
 # 持续集成
 
 1. 编写GitLab持续集成脚本，并上传项目代码。
 
 ```
-    stages:
+stages:
   - prepare
   - lint
   - build
