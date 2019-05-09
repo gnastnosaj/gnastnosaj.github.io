@@ -52,7 +52,7 @@ npm install -g protractor
 npm install -g sonar-scanner
 ```
 
-2. 进入http://127.0.0.1/${username}/ng-cari/settings/ci_cd，查看GitLab Runner的注册令牌Registration Token
+2. 进入http://127.0.0.1/username/ng-cari/settings/ci_cd 查看GitLab Runner的注册令牌Registration Token
 
 3. 注册GitLab Runner
 ```
@@ -67,7 +67,7 @@ docker run --rm -t -i -v /srv/gitlab-runner/config:/etc/gitlab-runner gitlab/git
 
 - SonarQube
 
-本文写作时SonarQube的版本已经发布到7.7，但用于实现与GitLab进行交互的SonarQube插件目前仅支持7.5，所以这里以7.5做为演示。
+  本文写作时SonarQube的版本已经发布到7.7，但用于实现与GitLab进行交互的SonarQube插件目前仅支持7.5，所以这里以7.5做为演示。
 
 1. 部署对应的docker容器
 
@@ -78,17 +78,17 @@ docker run --detach \
   --restart always \
   sonarqube:7.5-community
 ```
-2. 进入http://127.0.0.1:9000/admin/marketplace并安装GitLab插件
+2. 进入http://127.0.0.1:9000/admin/marketplace 并安装GitLab插件
 
-3. 进入http://127.0.0.1/profile/personal_access_tokens生成GitLab的Access Token访问令牌
+3. 进入http://127.0.0.1/profile/personal_access_tokens 生成GitLab的Access Token访问令牌
 
-4. 进入http://127.0.0.1:9000/admin/settings?category=gitlab配置GitLab插件信息
+4. 进入http://127.0.0.1:9000/admin/settings?category=gitlab 配置GitLab插件信息
 ```
     GitLab url: http://127.0.0.1
     GitLab User Token: `步骤2中生成的GitLab Access Token`
 ```
 
-5. 进入http://127.0.0.1:9000/admin/users，在Administrator用户下建立SonarQube的Token访问令牌。
+5. 进入http://127.0.0.1:9000/admin/users 在Administrator用户下建立SonarQube的Token访问令牌。
 
 # 持续集成
 
