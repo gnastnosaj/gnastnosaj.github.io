@@ -130,7 +130,7 @@ lint:ng:
     - git merge $CI_COMMIT_SHA --no-commit --no-ff
     - >
       sonar-scanner
-      -Dsonar.host.url=http://192.168.3.214:9000
+      -Dsonar.host.url=http://127.0.0.1:9000
       #SonarQube Token
       -Dsonar.login=a0d764c3a0b5856450c5a40d74d4c98e9fe57cd8
       -Dsonar.analysis.mode=preview
@@ -178,7 +178,7 @@ analyse:master:
     - ng lint @ng-cari/lottie --format json --force > projects/ng-cari/lottie/report.json
     - >
       sonar-scanner
-      -Dsonar.host.url=http://192.168.3.214:9000
+      -Dsonar.host.url=http://127.0.0.1:9000
       -Dsonar.login=a0d764c3a0b5856450c5a40d74d4c98e9fe57cd8
       -Dsonar.sources=src,e2e/src,projects/ng-cari/lottie/src
       -Dsonar.typescript.tslint.reportPaths=report.json,e2e/report.json,projects/ng-cari/lottie/report.json
