@@ -86,8 +86,8 @@ tags:
 
 ## 作品
 
- - [觅券儿](https://www.25pp.com/android/detail_7680585/):一款淘客类APP，支持Android和iOS
- - [吉祥家私人定制](http://jxjsh.gitee.io/design/):一款卷帘定制APP，支持WEB、微信小程序、支付宝小程序
+ - [觅券儿](https://www.25pp.com/android/detail_7680585/)：一款淘客类APP，支持Android和iOS
+ - [吉祥家私人定制](http://jxjsh.gitee.io/design/)：一款卷帘定制APP，支持WEB、微信小程序、支付宝小程序
 
 # 技能清单
 
