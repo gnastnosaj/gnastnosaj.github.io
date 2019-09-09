@@ -42,7 +42,6 @@ tags:
 
 其他开发的项目包括GitLab项目看板统计（Angular）、Nexus Repository Manager私有库列表（Groovy、Angular）、微服务管理平台（Angular）。
 
-### 
 
 ## 江苏国光信息产业股份有限公司 （ 2013年7月 ~ 2019年3月 ）
 
