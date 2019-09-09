@@ -6,9 +6,9 @@ tags:
 
 # 联系方式
 
-- 手机：18068567735
 - Email：jasontsang.dev@gmail.com
 - 微信号：gnastnosaj
+- QQ：2563745474
 
 ---
 
@@ -20,13 +20,29 @@ tags:
  - 技术博客：https://jasontsang.dev
  - GitHub：https://github.com/gnastnosaj
 
- - 期望职位：Android开发工程师
- - 期望薪资：税前月薪12k~20k
- - 期望城市：常州
+ - 期望职位：前端工程师、移动端工程师、全栈开发
+ - 期望薪资：税前月薪15k~20k
+ - 期望城市：常州、远程开发
 
 ---
 
 # 工作经历
+
+## 天地自动化股份有限公司 （ 2019年4月 ~ 至今 ）
+
+### 监控类软件框架
+
+我在此项目负责基于Angular的前端框架和UI搭建，封装包括基于rxbus思想的事件总线库、基于lottie的动画组件库、基于less的动态主题渲染库以及一些常用的工具和组件。同时参考NG-ZORRO官网，搭建了一套业务组件库的开发框架，开发成员可以针对公司的业务更细化的进行业务组件的开发和重用，使用markdown进行组件文档编写动态生成组件库官网。此项目中我充分借鉴了已有的移动端开发经验，确保了开发效率和项目质量。
+
+### 报表组件
+
+我在此项目负责将基于.NET开发的某项目中的报表制作模块抽离成通用模块，并进行二次开发和更换业务系统数据源。我充分利用其他语言的开发经验，能快速投入到项目工作中，并完成对应的开发内容。
+
+### 其他项目
+
+其他开发的项目包括GitLab项目看板统计（Angular）、Nexus Repository Manager私有库列表（Groovy、Angular）、微服务管理平台（Angular）
+
+### 
 
 ## 江苏国光信息产业股份有限公司 （ 2013年7月 ~ 2019年3月 ）
 
@@ -67,6 +83,7 @@ tags:
 
  - [Filter](https://github.com/gnastnosaj/Filter)：灵感源自于gradle构建器的dsl语法，Filter是一款通过采用dsl语法的形式来实现插件化的爬虫类应用，用户可以自行编写groovy脚本来获取喜爱的网站数据并在应用中展示，Filter提供了几种通用的布局展示。最新版本的[Filter](https://www.pgyer.com/D7r4)采用kotlin语言开发，目前已托管在蒲公英平台，强烈推荐[下载](https://www.pgyer.com/D7r4)体验。
  - [Boilerplate](https://github.com/gnastnosaj/Boilerplate)：Boilerplate顾名思义就是开发模板，是日常开发中积累和总结出来的一些通用的东西，便于快速的开始进行安卓应用的开发。另外[Boilerplate-util](https://github.com/gnastnosaj/Boilerplate-util)、[Boilerplate-ipc](https://github.com/gnastnosaj/Boilerplate-ipc)、[Boilerplate-cordova](https://github.com/gnastnosaj/Boilerplate-cordova)也是几个常用的开发模板。
+ - [Lab](https://jasontsang.dev/lab)：此项目是在Angular学习过程中开发的一个前端项目，包含了自己开发的一些Angular通用组件和特性，基于Electron封装客户端并提供下载。
 
 # 技能清单
 
@@ -75,12 +92,12 @@ tags:
 - Web开发：Java/Node
 - Web框架：Spring/Vert.x/Koa
 - 前端框架：Vue.js/React/Ember.js
-- 前端工具：Bower/NPM/Yarn/SaSS/LeSS
+- 前端工具：Bower/NPM/Yarn/Less/Gulp
 - 移动开发：Kotlin/Swift/Cordova/微信公众号/微信小程序
 - 数据库相关：MySQL/SQLite/Oracle/DB2
-- 版本管理、文档和自动化部署工具：Git/Svn/Travis
+- 版本管理、文档和自动化部署工具：Git/Travis
 - 单元测试：JUnit
-- 云和开放平台：微信公众平台/腾讯云/AWS
+- 云和开放平台：微信公众平台/支付宝开放平台/腾讯云/百度云
 
 # 致谢
 
