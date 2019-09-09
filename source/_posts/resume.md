@@ -84,10 +84,10 @@ tags:
  - [Boilerplate](https://github.com/gnastnosaj/Boilerplate)：Boilerplate顾名思义就是开发模板，是日常开发中积累和总结出来的一些通用的东西，便于快速的开始进行安卓应用的开发。另外[Boilerplate-util](https://github.com/gnastnosaj/Boilerplate-util)、[Boilerplate-ipc](https://github.com/gnastnosaj/Boilerplate-ipc)、[Boilerplate-cordova](https://github.com/gnastnosaj/Boilerplate-cordova)也是几个常用的开发模板。
  - [Lab](https://jasontsang.dev/lab)：此项目是在Angular学习过程中开发的一个前端项目，包含了自己开发的一些Angular通用组件和特性，基于Electron封装客户端并提供下载。
 
- ## 作品
+## 作品
 
-  - [觅券儿](https://www.25pp.com/android/detail_7680585/):一款淘客类APP，支持Android和iOS
-  - [吉祥家私人定制](http://jxjsh.gitee.io/design/):一款卷帘定制APP，支持WEB、微信小程序、支付宝小程序
+ - [觅券儿](https://www.25pp.com/android/detail_7680585/):一款淘客类APP，支持Android和iOS
+ - [吉祥家私人定制](http://jxjsh.gitee.io/design/):一款卷帘定制APP，支持WEB、微信小程序、支付宝小程序
 
 # 技能清单
 
