@@ -7,7 +7,7 @@ tags:
 # 联系方式
 
 - Email：jasontsang.dev@gmail.com
-- 微信号：gnastnosaj
+- 微信：gnastnosaj
 - QQ：2563745474
 
 ---
@@ -32,7 +32,7 @@ tags:
 
 ### 监控类软件框架
 
-我在此项目负责基于Angular的前端框架和UI搭建，封装包括基于rxbus思想的事件总线库、基于lottie的动画组件库、基于less的动态主题渲染库以及一些常用的工具和组件。同时参考NG-ZORRO官网，搭建了一套业务组件库的开发框架，开发成员可以针对公司的业务更细化的进行业务组件的开发和重用，使用markdown进行组件文档编写动态生成组件库官网。此项目中我充分借鉴了已有的移动端开发经验，确保了开发效率和项目质量。
+我在此项目负责基于Angular的前端框架和UI搭建，封装包括基于rxbus思想的事件总线库、基于lottie的动画组件库、基于less的动态主题渲染库以及一些常用的工具和组件。同时参考NG-ZORRO官网，搭建了一套业务组件库的开发框架，开发成员可以针对公司的业务更细化的进行业务组件的开发和重用，使用markdown进行组件文档编写并且动态生成组件库官网。此项目中我充分借鉴了已有的移动端开发经验，确保了开发效率和项目质量。
 
 ### 报表组件
 
@@ -40,7 +40,7 @@ tags:
 
 ### 其他项目
 
-其他开发的项目包括GitLab项目看板统计（Angular）、Nexus Repository Manager私有库列表（Groovy、Angular）、微服务管理平台（Angular）
+其他开发的项目包括GitLab项目看板统计（Angular）、Nexus Repository Manager私有库列表（Groovy、Angular）、微服务管理平台（Angular）。
 
 ### 
 
@@ -85,6 +85,11 @@ tags:
  - [Boilerplate](https://github.com/gnastnosaj/Boilerplate)：Boilerplate顾名思义就是开发模板，是日常开发中积累和总结出来的一些通用的东西，便于快速的开始进行安卓应用的开发。另外[Boilerplate-util](https://github.com/gnastnosaj/Boilerplate-util)、[Boilerplate-ipc](https://github.com/gnastnosaj/Boilerplate-ipc)、[Boilerplate-cordova](https://github.com/gnastnosaj/Boilerplate-cordova)也是几个常用的开发模板。
  - [Lab](https://jasontsang.dev/lab)：此项目是在Angular学习过程中开发的一个前端项目，包含了自己开发的一些Angular通用组件和特性，基于Electron封装客户端并提供下载。
 
+ ## 作品
+
+  - [觅券儿](https://www.25pp.com/android/detail_7680585/):一款淘客类APP，支持Android和iOS
+  - [吉祥家私人定制](http://jxjsh.gitee.io/design/):一款卷帘定制APP，支持WEB、微信小程序、支付宝小程序
+
 # 技能清单
 
 以下均为我熟练使用的技能
@@ -93,7 +98,7 @@ tags:
 - Web框架：Spring/Vert.x/Koa
 - 前端框架：Vue.js/React/Ember.js
 - 前端工具：Bower/NPM/Yarn/Less/Gulp
-- 移动开发：Kotlin/Swift/Cordova/微信公众号/微信小程序
+- 移动开发：Kotlin/Swift/Cordova/微信公众号/微信小程序/支付宝小程序
 - 数据库相关：MySQL/SQLite/Oracle/DB2
 - 版本管理、文档和自动化部署工具：Git/Travis
 - 单元测试：JUnit
