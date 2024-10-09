@@ -30,6 +30,9 @@ tags:
 ### Smart Rebuild
 This project was build on micro service architecture, using Springboot and Angular framework, as a fullstack developer, I was resposible for user story efforts estimation, implementation and unit test for both front end and back end services based on the team capacity.
 
+### FFG Rebuild
+This project was build on micro service architecture, using Springboot and Angular framework, I created a tool to transform angular js code to angular 18, I also import an angular library using git submodule which can save about 20% time of migration.
+
 ## Tiandi (Changzhou) Automation Co., Ltd (2019/04 - 2022/03)
 
 ### Belt Conveyor Control Mobile APP
@@ -137,10 +140,13 @@ Thank you for taking the time to read my resume and look forward to the opportun
 
 # 工作经历
 
-## 普华永道信息技术（上海）有限公司 (2022年4月 - 至今)
+## 普华永道信息技术（上海）有限公司 (2022年4月 - 2024年10月)
 
 ### Smart Rebuild
 此项目采用微服务架构，使用Springboot和Angular框架，作为一个全栈开发，我主要负责User Story的工作量评估、功能实现以及单元测试。
+
+### FFG Rebuild
+此项目采用微服务架构，使用Springboot和Angular框架，我为项目开发了一个移植工具，将原来的AngularJS代码转化为Angular代码，同时引入了Angular Library结合Git Submodule实现多个子应用间的代码共享，节省了大约20%的工作量。
 
 ## 天地自动化股份有限公司 （ 2019年4月 ~ 2022年3月 ）
 
