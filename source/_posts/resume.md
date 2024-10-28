@@ -1,12 +1,12 @@
 ---
 title: Resume 我的简历
-date: 2018-05-30 13:18:42
+date: 2025-08-21 09:23:40
 tags:
 ---
 
 # Contact Information
 
-- Email: jasontsang.icloud@me.com
+- Email: jasontsang.dev@gmail.com
 - WeChat: gnastnosaj
 - QQ: 2563745474
 
@@ -17,7 +17,7 @@ tags:
  - Jason Tsang / Male / 1991
  - Bachelor Degree / Central South University
  - Major: Software Engineering
- - Working years: 10 years
+ - Working years: 12 years
  - Website：https://jasontsang.dev
  - GitHub：https://github.com/gnastnosaj
 
@@ -25,7 +25,12 @@ tags:
 
 # Work Experience
 
-## PricewaterhouseCoopers Information Technologies (Shanghai) Co., Ltd (2022/04 - Now)
+## Joyflow.Inc (2024/12 - Now)
+
+### GetMyHome
+GetMyHome is an app for home buyers with licensed real estate agents and cutting-edge AI. I was resposible for developing the app using Flutter framework and publishing the app on App Store. I was also engaged in the development of back-end services using Golang. GetMyHome is now avaiable on App Store and Google Play.
+
+## PricewaterhouseCoopers Information Technologies (Shanghai) Co., Ltd (2022/04 - 2024/11)
 
 ### Smart Rebuild
 This project was build on micro service architecture, using Springboot and Angular framework, as a fullstack developer, I was resposible for user story efforts estimation, implementation and unit test for both front end and back end services based on the team capacity.
@@ -62,7 +67,7 @@ I was responsible for construting the front-end framework based on Angular, the 
 ### Others
 Gitlab Issues Analysis (based on Angular), Nexus Repository Manager Private Package List (based on Groovy and Angular), Management of Micro Services (based on Angular).
 
-## Jiangsu Guoguang Information Industry Co., Ltd (201307 - 201903)
+## Jiangsu Guoguang Information Industry Co., Ltd (2013/07 - 2019/03)
 
 ### Control System Of The Bank Queuing Machines
 I was responsible for developing the system on Android which is used to control the wireless devices placed in the bank, such as window panes, primary pane and wireless speakers and provide restful api for other business systems. The main problems were communication protocol and encoding conversion between different platforms, serial port communication with wireless devices, announcements implemented with audiotrack api, switching between master and slave services, concurrency issues, sequential issues and performance. This project was implemented by using the Kotlin programming language, the performance of the system is closed to the one on Windows OS.
@@ -92,14 +97,16 @@ Internet Trusted Identity Authentication(```Android and iOS```), Mobile Recordin
 
 ## Open Source Projects
 
- - [Filter](https://github.com/gnastnosaj/Filter): Filter is a plug-in crawler application in the form of DSL syntax inspired by the DSL syntax of Gradle. Users can write groovy scripts to fetch data from favorite websites and display it in the application. Filter provides several general layouts. The newest [Filter](https://www.pgyer.com/D7r4) was implemented with Kotlin. At present, it has been hosted on the Pgyer, [Download](https://www.pgyer.com/D7r4).
+ - [Filter](https://github.com/gnastnosaj/Filter): Filter is a plug-in crawler application in the form of DSL syntax inspired by the DSL syntax of Gradle. Users can write groovy scripts to fetch data from favorite websites and display it in the application. Filter provides several general layouts. The newest [Filter](https://www.pgyer.com/D7r4) was implemented with Kotlin. 
  - [Boilerplate](https://github.com/gnastnosaj/Boilerplate): As the name suggests, Boilerplate is a development template. It is some common things accumulated and summarized from daily development, which is convenient to quickly start the development of Android applications.[Boilerplate-util](https://github.com/gnastnosaj/Boilerplate-util), [Boilerplate-ipc](https://github.com/gnastnosaj/Boilerplate-ipc) and [Boilerplate-cordova](https://github.com/gnastnosaj/Boilerplate-cordova) are also commonly used development templates.
  - [Lab](https://jasontsang.dev/lab): This project is a front-end project developed in the process of angular learning, including some common components and features of angular developed by myself. A client based on electron is provided.
 
 ## Works
 
- - [Miquaner](https://www.25pp.com/android/detail_7680585/): A Taoke app that supports Android and IOS.
- - [Jixiangjia Customization](http://jxjsh.gitee.io/design/): A roller shutters custom APP, support WEB, WeChat mini program, Alipay mini program.
+ - [Miquaner](https://www.25pp.com/android/detail_7680585/): A Taoke app that supports Android and iOS.
+ - [Jixiangjia Customization](https://jxjsh.gitee.io/design/): A roller shutters custom APP, support Web, WeChat mini program, Alipay mini program.
+ - [tidytech](https://tidytech.evozic.com): A smart storage app based on flutter that supports Web, Android and iOS.
+ - [petdoor](https://www.jasontsang.dev:4096/petdoor): A web app based on flutter used for customizing petdoor which can import 3D model with three.js
 
 # Skills
 
@@ -109,11 +116,11 @@ The following are the skills that I have mastered and used
 - Web Framework: Spring/NestJS/Gin
 - Front-End Framework: Angular/Vue.js/React
 - Front-End Toolkit: NPM/Less/Gulp
-- Mobile Development: Kotlin/Swift/Dart/Cordova/WeChat Official Account/WeChat mini program/Alipay mini program
+- Mobile Development: Kotlin/Swift/Dart/Flutter/Cordova/WeChat Official Account/WeChat mini program/Alipay mini program
 - Database: MySQL/SQLite/Oracle/DB2
 - Version Control and Deployment: Git/Travis
 - Unit Test: JUnit
-- Cloud and open platform: WeChat Official Accounts Platform/Alipay open platform/Tencent Cloud/Baidu Cloud
+- Cloud and open platform: WeChat Official Accounts Platform/Alipay open platform/Tencent Cloud/Baidu Cloud/Azure/GCP
 
 # Thanks
 
@@ -121,7 +128,7 @@ Thank you for taking the time to read my resume and look forward to the opportun
 
 # 联系方式
 
-- Email：jasontsang.icloud@me.com
+- Email：jasontsang.dev@gmail.com
 - 微信：gnastnosaj
 - QQ：2563745474
 
@@ -132,7 +139,7 @@ Thank you for taking the time to read my resume and look forward to the opportun
  - 曾健/男/1991
  - 本科/中南大学
  - 专业：软件工程
- - 工作年限：10年
+ - 工作年限：11年
  - 技术博客：https://jasontsang.dev
  - GitHub：https://github.com/gnastnosaj
 
@@ -140,7 +147,12 @@ Thank you for taking the time to read my resume and look forward to the opportun
 
 # 工作经历
 
-## 普华永道信息技术（上海）有限公司 (2022年4月 - 2024年10月)
+## Joyflow.Inc (2024年11月 ~ 至今)
+
+### GetMyHome
+GetMyHome是一款使用AI技术帮助购房者经历更好的购房体验的产品，我主要负责移动端应用从零的开发、发布以及维护，同时也参与到后端开发。移动端使用Flutter、后端使用Golang，目前GetMyHome已经在App Store和Google Play上发布。
+
+## 普华永道信息技术（上海）有限公司 (2022年4月 ~ 2024年11月)
 
 ### Smart Rebuild
 此项目采用微服务架构，使用Springboot和Angular框架，作为一个全栈开发，我主要负责User Story的工作量评估、功能实现以及单元测试。
@@ -148,7 +160,7 @@ Thank you for taking the time to read my resume and look forward to the opportun
 ### FFG Rebuild
 此项目采用微服务架构，使用Springboot和Angular框架，我为项目开发了一个移植工具，将原来的AngularJS代码转化为Angular代码，同时引入了Angular Library结合Git Submodule实现多个子应用间的代码共享，节省了大约20%的工作量。
 
-## 天地自动化股份有限公司 （ 2019年4月 ~ 2022年3月 ）
+## 天地自动化股份有限公司 （2019年4月 ~ 2022年3月）
 
 ### 胶带机控制移动端
 我在此项目负责开发基于ModbusTCP协议的胶带机控制移动端程序、以及基于RTSP流的皮带监控视频的接入，该项目基于智慧矿山基础信息平台移动端开发。
@@ -177,7 +189,7 @@ Thank you for taking the time to read my resume and look forward to the opportun
 ### 其他项目
 其他开发的项目包括GitLab项目看板统计（Angular）、Nexus Repository Manager私有库列表（Groovy、Angular）、微服务管理平台（Angular）。
 
-## 江苏国光信息产业股份有限公司 （ 2013年7月 ~ 2019年3月 ）
+## 江苏国光信息产业股份有限公司 （2013年7月 ~ 2019年3月）
 
 ### 排队叫号机安卓控制盒服务
 我在此项目负责叫号机安卓控制盒服务的开发，控制盒服务主要负责控制无线设备包括窗口屏、综合显示屏、呼叫器、无线音箱等设备的工作，同时对外统一提供排队叫号的接口。该项目需要解决各平台之间的通讯协议、编码等转换问题，无线设备的串口操作、本地语音的高效播放（基于android的audiotrack流播放）、主从控制盒切换以及实现业务逻辑的高并发和时序队列等性能和功能要求。该项目使用kotlin语言开发完成，性能接近基于windows系统的控制盒服务，在此之前公司还未有在安卓平台下的相关产品。
@@ -207,14 +219,16 @@ Thank you for taking the time to read my resume and look forward to the opportun
 
 ## 开源项目
 
- - [Filter](https://github.com/gnastnosaj/Filter)：灵感源自于gradle构建器的dsl语法，Filter是一款通过采用dsl语法的形式来实现插件化的爬虫类应用，用户可以自行编写groovy脚本来获取喜爱的网站数据并在应用中展示，Filter提供了几种通用的布局展示。最新版本的[Filter](https://www.pgyer.com/D7r4)采用kotlin语言开发，目前已托管在蒲公英平台，强烈推荐[下载](https://www.pgyer.com/D7r4)体验。
+ - [Filter](https://github.com/gnastnosaj/Filter)：灵感源自于gradle构建器的dsl语法，Filter是一款通过采用dsl语法的形式来实现插件化的爬虫类应用，用户可以自行编写groovy脚本来获取喜爱的网站数据并在应用中展示，Filter提供了几种通用的布局展示。
  - [Boilerplate](https://github.com/gnastnosaj/Boilerplate)：Boilerplate顾名思义就是开发模板，是日常开发中积累和总结出来的一些通用的东西，便于快速的开始进行安卓应用的开发。另外[Boilerplate-util](https://github.com/gnastnosaj/Boilerplate-util)、[Boilerplate-ipc](https://github.com/gnastnosaj/Boilerplate-ipc)、[Boilerplate-cordova](https://github.com/gnastnosaj/Boilerplate-cordova)也是几个常用的开发模板。
  - [Lab](https://jasontsang.dev/lab)：此项目是在Angular学习过程中开发的一个前端项目，包含了自己开发的一些Angular通用组件和特性，基于Electron封装客户端并提供下载。
 
 ## 作品
 
  - [觅券儿](https://www.25pp.com/android/detail_7680585/)：一款淘客类APP，支持Android和iOS
- - [吉祥家私人定制](http://jxjsh.gitee.io/design/)：一款卷帘定制APP，支持WEB、微信小程序、支付宝小程序
+ - [吉祥家私人定制](https://jxjsh.gitee.io/design/)：一款卷帘定制APP，支持Web、微信小程序、支付宝小程序
+ - [tidytech](https://tidytech.evozic.com): 一款基于Flutter制作的智能收纳APP，支持Web、Android、iOS
+ - [petdoor](https://www.jasontsang.dev:4096/petdoor): 一款基于Flutter制作的宠物门定制APP，使用three.js支持3D模型导入
 
 # 技能清单
 
@@ -224,11 +238,11 @@ Thank you for taking the time to read my resume and look forward to the opportun
 - Web框架：Spring/NestJS/Gin
 - 前端框架：Angular/Vue.js/React
 - 前端工具：NPM/Less/Gulp
-- 移动开发：Kotlin/Swift/Dart/Cordova/微信公众号/微信小程序/支付宝小程序
+- 移动开发：Kotlin/Swift/Dart/Flutter/Cordova/微信公众号/微信小程序/支付宝小程序
 - 数据库相关：MySQL/SQLite/Oracle/DB2
 - 版本管理、文档和自动化部署工具：Git/Travis
 - 单元测试：JUnit
-- 云和开放平台：微信公众平台/支付宝开放平台/腾讯云/百度云
+- 云和开放平台：微信公众平台/支付宝开放平台/腾讯云/百度云/Azure/GCP
 
 # 致谢
 
