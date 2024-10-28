@@ -1,12 +1,12 @@
 ---
 title: Resume 我的简历
-date: 2018-05-30 13:18:42
+date: 2024-10-28 10:52:40
 tags:
 ---
 
 # Contact Information
 
-- Email: jasontsang.icloud@me.com
+- Email: jasontsang.dev@gmail.com
 - WeChat: gnastnosaj
 - QQ: 2563745474
 
@@ -17,7 +17,7 @@ tags:
  - Jason Tsang / Male / 1991
  - Bachelor Degree / Central South University
  - Major: Software Engineering
- - Working years: 10 years
+ - Working years: 11 years
  - Website：https://jasontsang.dev
  - GitHub：https://github.com/gnastnosaj
 
@@ -92,14 +92,15 @@ Internet Trusted Identity Authentication(```Android and iOS```), Mobile Recordin
 
 ## Open Source Projects
 
- - [Filter](https://github.com/gnastnosaj/Filter): Filter is a plug-in crawler application in the form of DSL syntax inspired by the DSL syntax of Gradle. Users can write groovy scripts to fetch data from favorite websites and display it in the application. Filter provides several general layouts. The newest [Filter](https://www.pgyer.com/D7r4) was implemented with Kotlin. At present, it has been hosted on the Pgyer, [Download](https://www.pgyer.com/D7r4).
+ - [Filter](https://github.com/gnastnosaj/Filter): Filter is a plug-in crawler application in the form of DSL syntax inspired by the DSL syntax of Gradle. Users can write groovy scripts to fetch data from favorite websites and display it in the application. Filter provides several general layouts. The newest [Filter](https://www.pgyer.com/D7r4) was implemented with Kotlin. 
  - [Boilerplate](https://github.com/gnastnosaj/Boilerplate): As the name suggests, Boilerplate is a development template. It is some common things accumulated and summarized from daily development, which is convenient to quickly start the development of Android applications.[Boilerplate-util](https://github.com/gnastnosaj/Boilerplate-util), [Boilerplate-ipc](https://github.com/gnastnosaj/Boilerplate-ipc) and [Boilerplate-cordova](https://github.com/gnastnosaj/Boilerplate-cordova) are also commonly used development templates.
  - [Lab](https://jasontsang.dev/lab): This project is a front-end project developed in the process of angular learning, including some common components and features of angular developed by myself. A client based on electron is provided.
 
 ## Works
 
- - [Miquaner](https://www.25pp.com/android/detail_7680585/): A Taoke app that supports Android and IOS.
- - [Jixiangjia Customization](http://jxjsh.gitee.io/design/): A roller shutters custom APP, support WEB, WeChat mini program, Alipay mini program.
+ - [Miquaner](https://www.25pp.com/android/detail_7680585/): A Taoke app that supports Android and iOS.
+ - [Jixiangjia Customization](http://jxjsh.gitee.io/design/): A roller shutters custom APP, support Web, WeChat mini program, Alipay mini program.
+ - [tidytech]: A smart storage app based on flutter that supports Web, Android and iOS.
 
 # Skills
 
@@ -113,7 +114,7 @@ The following are the skills that I have mastered and used
 - Database: MySQL/SQLite/Oracle/DB2
 - Version Control and Deployment: Git/Travis
 - Unit Test: JUnit
-- Cloud and open platform: WeChat Official Accounts Platform/Alipay open platform/Tencent Cloud/Baidu Cloud
+- Cloud and open platform: WeChat Official Accounts Platform/Alipay open platform/Tencent Cloud/Baidu Cloud/Azure
 
 # Thanks
 
@@ -121,7 +122,7 @@ Thank you for taking the time to read my resume and look forward to the opportun
 
 # 联系方式
 
-- Email：jasontsang.icloud@me.com
+- Email：jasontsang.dev@gmail.com
 - 微信：gnastnosaj
 - QQ：2563745474
 
@@ -132,7 +133,7 @@ Thank you for taking the time to read my resume and look forward to the opportun
  - 曾健/男/1991
  - 本科/中南大学
  - 专业：软件工程
- - 工作年限：10年
+ - 工作年限：11年
  - 技术博客：https://jasontsang.dev
  - GitHub：https://github.com/gnastnosaj
 
@@ -140,7 +141,7 @@ Thank you for taking the time to read my resume and look forward to the opportun
 
 # 工作经历
 
-## 普华永道信息技术（上海）有限公司 (2022年4月 - 2024年10月)
+## 普华永道信息技术（上海）有限公司 (2022年4月 - 至今)
 
 ### Smart Rebuild
 此项目采用微服务架构，使用Springboot和Angular框架，作为一个全栈开发，我主要负责User Story的工作量评估、功能实现以及单元测试。
@@ -207,14 +208,15 @@ Thank you for taking the time to read my resume and look forward to the opportun
 
 ## 开源项目
 
- - [Filter](https://github.com/gnastnosaj/Filter)：灵感源自于gradle构建器的dsl语法，Filter是一款通过采用dsl语法的形式来实现插件化的爬虫类应用，用户可以自行编写groovy脚本来获取喜爱的网站数据并在应用中展示，Filter提供了几种通用的布局展示。最新版本的[Filter](https://www.pgyer.com/D7r4)采用kotlin语言开发，目前已托管在蒲公英平台，强烈推荐[下载](https://www.pgyer.com/D7r4)体验。
+ - [Filter](https://github.com/gnastnosaj/Filter)：灵感源自于gradle构建器的dsl语法，Filter是一款通过采用dsl语法的形式来实现插件化的爬虫类应用，用户可以自行编写groovy脚本来获取喜爱的网站数据并在应用中展示，Filter提供了几种通用的布局展示。
  - [Boilerplate](https://github.com/gnastnosaj/Boilerplate)：Boilerplate顾名思义就是开发模板，是日常开发中积累和总结出来的一些通用的东西，便于快速的开始进行安卓应用的开发。另外[Boilerplate-util](https://github.com/gnastnosaj/Boilerplate-util)、[Boilerplate-ipc](https://github.com/gnastnosaj/Boilerplate-ipc)、[Boilerplate-cordova](https://github.com/gnastnosaj/Boilerplate-cordova)也是几个常用的开发模板。
  - [Lab](https://jasontsang.dev/lab)：此项目是在Angular学习过程中开发的一个前端项目，包含了自己开发的一些Angular通用组件和特性，基于Electron封装客户端并提供下载。
 
 ## 作品
 
  - [觅券儿](https://www.25pp.com/android/detail_7680585/)：一款淘客类APP，支持Android和iOS
- - [吉祥家私人定制](http://jxjsh.gitee.io/design/)：一款卷帘定制APP，支持WEB、微信小程序、支付宝小程序
+ - [吉祥家私人定制](http://jxjsh.gitee.io/design/)：一款卷帘定制APP，支持Web、微信小程序、支付宝小程序
+ - [tidytech](http://tidytech.evozic.com): 一款基于Flutter制作的智能收纳APP，支持Web、Android、iOS
 
 # 技能清单
 
@@ -228,7 +230,7 @@ Thank you for taking the time to read my resume and look forward to the opportun
 - 数据库相关：MySQL/SQLite/Oracle/DB2
 - 版本管理、文档和自动化部署工具：Git/Travis
 - 单元测试：JUnit
-- 云和开放平台：微信公众平台/支付宝开放平台/腾讯云/百度云
+- 云和开放平台：微信公众平台/支付宝开放平台/腾讯云/百度云/Azure
 
 # 致谢
 
